@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <h1>Bonjour</h1>
+    <input type="text" placeholder="Comment t'appelles-tu ?" id="prenom">
+    <button type="button" onclick="getValue();">Envoyer</button>
+    
+    <script>
+
+function getValue() {
+    // Sélectionner l'élément input et récupérer sa valeur
+    var input = document.getElementById("prenom").value;
+    // Afficher la valeur
+    alert("Bonjour "+input);
+}
+    </script>
+
+    // <!-- <script>
+    //     let prenom = prompt("Bonjour, comment t'appelles-tu ?")
+    // </script> -->
+</body>
+</html>
